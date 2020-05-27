@@ -1,0 +1,14 @@
+{
+  "name": "continuous-token-transfer",
+  "version": "1.0.0",
+  "description": "Continuous token transfer system",
+  "author": "Yosuke-Aramaki",
+  "private": true,
+  "dependencies": {
+    "truffle": "5.0.7",
+    "openzeppelin-solidity": "2.1.3",
+    "truffle-hdwallet-provider": "1.0.4",
+    "truffle-hdwallet-provider-privkey": "1.0.3"
+  },
+  "devDependencies": {}
+}
