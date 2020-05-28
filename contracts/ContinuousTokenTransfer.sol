@@ -11,6 +11,7 @@ contract ContinuousTokenTransfer {
 
   function ContinuousTokenTransfe(address _tokeAddress, address _to, uint256 _value) public returns (bool success) {
     IERC20(_tokeAddress).transfer(_to, _value);
+    return true;
   }
 
 }
